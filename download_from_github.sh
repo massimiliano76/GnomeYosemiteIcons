@@ -4,7 +4,7 @@ cd ~/
 mkdir .icons >/dev/null 2>&1
 cd .icons
 command -v git >/dev/null 2>&1 || { hasgit="no"; }
-if [ "$hasgit" == "no" ]; then
+if [ "$hasgit" = "no" ]; then
 echo Can\'t find git.  Downloading from zip file.
 wget https://github.com/zacpier/GnomeYosemiteIcons/archive/master.zip
 unzip -o master.zip
