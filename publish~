@@ -1,5 +1,0 @@
-#!/bin/sh
-git add -A
-echo "Commit log: "
-read cl
-git commit -n "$cl" && git push origin master

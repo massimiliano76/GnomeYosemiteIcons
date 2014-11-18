@@ -1,0 +1,8 @@
+#!/bin/sh
+ls "Source Files/apps" | cut -d '"' -f 2 | while read fileName; do
+    find /usr/share/icons/Numix-Circle-Light/48x48/apps/ -lname $fileName -printf "%f\n" | cut -d '"' -f 2 | while read ic; do
+        echo "linking $fileName to $ic"
+        rm "48x48/apps/$ic" > /dev/null 2>&1
+        ln -s "$fileName" "48x48/apps/$ic"
+    done
+done

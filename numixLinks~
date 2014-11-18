@@ -1,0 +1,8 @@
+#!/bin/sh
+cd /usr/share/icons/Numix-Circle-Light/48x48/apps/
+for i in $(; do echo "$i"; done;
+echo "file name: "
+read fileName
+find /usr/share/icons/Numix-Circle-Light/48x48/apps -lname $fileName | cut -d '"' -f 2 | while read ic; do
+    cp "/usr/share/icons/Numix-Circle-Light/48x48/apps/$ic" ./
+done
