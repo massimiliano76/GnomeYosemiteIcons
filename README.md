@@ -9,6 +9,10 @@ Make sure to download and install the [Numix Circle](https://github.com/numixpro
 
 If you don't see an icon in amazing Yosemite style, just start an issue and I should take care of it quickly.
 
+Install
+=========
+
+Type the following command in your favorite terminal: curl https://raw.githubusercontent.com/zacpier/GnomeYosemiteIcons/master/download_from_github.sh | sh
 
 Not Working
 =============

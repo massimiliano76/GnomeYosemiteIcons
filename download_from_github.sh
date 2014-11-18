@@ -15,4 +15,4 @@ git clone https://github.com/zacpier/GnomeYosemiteIcons.git GnomeYosemiteIcons-m
 fi
 cd GnomeYosemiteIcons-master
 rm download_from_github.sh
-gsettings set org.gnome.desktop.interface icon-theme 'GnomeYosemiteIcons'
+gsettings set org.gnome.desktop.interface icon-theme 'GnomeYosemiteIcons-master'
