@@ -1,9 +1,0 @@
-#!/bin/sh
-mkdir 48x48
-mkdir 48x48/apps
-cd Source\ Files
-cd apps
-cp -r * ../../48x48/apps/
-cd ../../
-rmdir scalable
-ln -s 48x48 scalable
