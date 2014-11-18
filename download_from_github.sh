@@ -1,5 +1,5 @@
 #!/bin/sh
-rm -r ~/.icons/GnomeYosemiteIcons-master >/dev/null 2>&1
+rm -r --interactive=never -f ~/.icons/GnomeYosemiteIcons-master >/dev/null 2>&1
 hasgit="yes"
 cd ~/
 mkdir .icons >/dev/null 2>&1
