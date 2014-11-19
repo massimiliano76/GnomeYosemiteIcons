@@ -15,7 +15,7 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.48.3.1 r9886"
-   sodipodi:docname="circle template.svg">
+   sodipodi:docname="atom.svg">
   <defs
      id="defs4">
     <linearGradient
@@ -74,11 +74,11 @@
     <linearGradient
        id="linearGradient5423">
       <stop
-         style="stop-color:#efeae1;stop-opacity:1;"
+         style="stop-color:#6acb97;stop-opacity:1;"
          offset="0"
          id="stop5425" />
       <stop
-         style="stop-color:#e0d6c5;stop-opacity:1;"
+         style="stop-color:#3e9e7b;stop-opacity:1;"
          offset="1"
          id="stop5427" />
     </linearGradient>
@@ -116,7 +116,7 @@
     </clipPath>
     <linearGradient
        inkscape:collect="always"
-       xlink:href="#linearGradient3790"
+       xlink:href="#linearGradient4829"
        id="linearGradient3796"
        x1="24.58621"
        y1="4.4953041"
@@ -131,9 +131,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.32000001"
-     inkscape:cx="-979.41246"
-     inkscape:cy="-369.79977"
+     inkscape:zoom="1.8101934"
+     inkscape:cx="82.109035"
+     inkscape:cy="56.284453"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -170,7 +170,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>

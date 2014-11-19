@@ -12,10 +12,14 @@ If you don't see an icon in amazing Yosemite style, just start an issue and I sh
 Install
 =========
 
-Type the following command in your favorite terminal: curl https://raw.githubusercontent.com/zacpier/GnomeYosemiteIcons/master/download_from_github.sh | sh
+Type the following command in your favorite terminal:
+  curl https://raw.githubusercontent.com/zacpier/GnomeYosemiteIcons/master/download_from_github.sh | sh
 
 Not Working
 =============
 
-I couldn't get teamviewer to work, you may have better luck though.
-Plank is annoying in regards to wine programs.
+* Packaged programs that run through Wine seem to break when using the "Plank" dock.
+
+Credits
+=========
+* File-Roller icon inspired by [Dr. Slash's Unarchiver icon](https://github.com/dr-slash/icons-flat-osx/blob/master/Applications/The-Unarchiver.svg "From the "Icons-Flat-Osx" github repository")
