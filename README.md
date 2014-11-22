@@ -14,7 +14,7 @@ Install
 
 Type the following command in your favorite terminal:
   
-    curl https://raw.githubusercontent.com/Foggalong/hardcode-fixer/master/fix.sh | sudo sh
+    sudo sh -c "curl https://raw.githubusercontent.com/Foggalong/hardcode-fixer/master/fix.sh | bash"
   
     curl https://raw.githubusercontent.com/zacpier/GnomeYosemiteIcons/master/download_from_github.sh | sh
 
