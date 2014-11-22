@@ -12,7 +12,7 @@ If you don't see an icon in amazing Yosemite style, just start an issue and I sh
 Install
 =========
 
-Type the following command in your favorite terminal:
+Paste the following commands in your favorite terminal:
   
     sudo sh -c "curl https://raw.githubusercontent.com/Foggalong/hardcode-fixer/master/fix.sh | bash"
   
