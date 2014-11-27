@@ -12,9 +12,11 @@ If you don't see an icon in amazing Yosemite style, just start an issue and I sh
 Install
 =========
 
-Type the following command in your favorite terminal:
-  curl https://raw.githubusercontent.com/Foggalong/hardcode-fixer/master/fix.sh | sudo sh
-  curl https://raw.githubusercontent.com/zacpier/GnomeYosemiteIcons/master/download_from_github.sh | sh
+Paste the following commands in your favorite terminal:
+  
+    sudo sh -c "curl https://raw.githubusercontent.com/Foggalong/hardcode-fixer/master/fix.sh | bash"
+  
+    curl https://raw.githubusercontent.com/zacpier/GnomeYosemiteIcons/master/download_from_github.sh | sh
 
 [Hardcode Fixer](https://github.com/Foggalong/hardcode-fixer ""Hardcode-Fixer" by Foggalong") requires sudo in order to fix launcher entries that have hardcoded icons.  If you aren't comfortable with giving a random script sudo access, just run it without sudo.  It will still fix icons in the home folder.
 
