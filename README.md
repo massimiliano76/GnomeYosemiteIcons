@@ -18,7 +18,19 @@ Paste the following commands in your favorite terminal:
   
     curl https://raw.githubusercontent.com/zacpier/GnomeYosemiteIcons/master/download_from_github.sh | sh
 
+
+
 [Hardcode Fixer](https://github.com/Foggalong/hardcode-fixer ""Hardcode-Fixer" by Foggalong") requires sudo in order to fix launcher entries that have hardcoded icons.  If you aren't comfortable with giving a random script sudo access, just run it without sudo.  It will still fix icons in the home folder.
+
+
+Some programs aren't included in Hardcode Fixer.
+
+ * Slingscold:
+
+   Run in your favorite terminal: sudo gedit /usr/share/applications/slingscold.desktop
+   
+   Replace "/usr/share/icons/slingscold.png" with "slingscold"
+
 
 Not Working
 =============

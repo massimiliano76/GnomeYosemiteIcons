@@ -14,8 +14,8 @@
    height="200"
    id="svg2"
    version="1.1"
-   inkscape:version="0.48.3.1 r9886"
-   sodipodi:docname="square template.svg">
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="preferences-system.svg">
   <defs
      id="defs4">
     <linearGradient
@@ -692,10 +692,10 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="2.8284271"
-     inkscape:cx="30.864131"
+     inkscape:cx="-22.699208"
      inkscape:cy="99.235596"
      inkscape:document-units="px"
-     inkscape:current-layer="g4328"
+     inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:window-width="1513"
      inkscape:window-height="792"
@@ -727,7 +727,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -738,7 +738,7 @@
      transform="translate(0,-852.36218)"
      style="display:inline">
     <rect
-       style="opacity:0.58208952999999997;fill-opacity:1;fill:url(#linearGradient4159)"
+       style="opacity:1;fill-opacity:1;fill:url(#linearGradient4159)"
        id="rect3772"
        width="200"
        height="179.67799"
@@ -748,7 +748,7 @@
        rx="17" />
     <path
        transform="matrix(0.54790367,0,0,0.55019619,-263.51493,652.57208)"
-       d="m 790.52328,542.50482 a 127.05825,127.05825 0 1 1 -254.1165,0 127.05825,127.05825 0 1 1 254.1165,0 z"
+       d="m 790.52328,542.50482 c 0,70.17234 -56.88592,127.05825 -127.05825,127.05825 -70.17234,0 -127.05825,-56.88591 -127.05825,-127.05825 0,-70.17233 56.88591,-127.05825 127.05825,-127.05825 70.17233,0 127.05825,56.88592 127.05825,127.05825 z"
        sodipodi:ry="127.05825"
        sodipodi:rx="127.05825"
        sodipodi:cy="542.50482"
