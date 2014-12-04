@@ -6,3 +6,10 @@ ls "Source Files/apps" | cut -d '"' -f 2 | while read fileName; do
         ln -s "$fileName" "48x48/apps/$ic"
     done
 done
+ls "Source Files/places" | cut -d '"' -f 2 | while read fileName; do
+    find /usr/share/icons/Numix/128x128/places/ -lname $fileName -printf "%f\n" | cut -d '"' -f 2 | while read ic; do
+        echo "linking $fileName to $ic"
+        rm "48x48/places/$ic" > /dev/null 2>&1
+        ln -s "$fileName" "48x48/places/$ic"
+    done
+done

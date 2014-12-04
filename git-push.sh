@@ -10,5 +10,6 @@ echo "---------------"
 echo ""
 echo "Commit log: "
 read cl
+echo ""
 git commit -m "$cl"
 git push origin master

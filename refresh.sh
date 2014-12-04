@@ -5,9 +5,16 @@ cd Source\ Files
 cd apps
 cp -r * ../../48x48/apps/
 cd ../../
+mkdir 48x48/places >/dev/null 2>&1
+cd Source\ Files
+cd places
+cp -r * ../../48x48/places/
+cd ../../
 
 if [ -d "/usr/share/icons/Numix-Circle-Light/48x48/apps/" ]; then
-  ./numixLinks
+  if [ -d "/usr/share/icons/Numix/128x128/places/" ]; then
+    ./numixLinks
+  fi
 fi
 
 rm scalable >/dev/null 2>&1
