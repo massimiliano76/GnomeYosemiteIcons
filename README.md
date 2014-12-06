@@ -32,11 +32,6 @@ Some programs aren't included in Hardcode Fixer.
    Replace "/usr/share/icons/slingscold.png" with "slingscold"
 
 
-Not Working
-=============
-
-* Packaged programs that run through Wine seem to break when using the "Plank" dock.
-
 Credits
 =========
 * File-Roller icon inspired by [Dr. Slash's Unarchiver icon](https://github.com/dr-slash/icons-flat-osx/blob/master/Applications/The-Unarchiver.svg "From the "Icons-Flat-Osx" github repository")
