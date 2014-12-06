@@ -13,11 +13,10 @@ Install
 =========
 
 Paste the following commands in your favorite terminal:
-  
-    sudo sh -c "curl https://raw.githubusercontent.com/Foggalong/hardcode-fixer/master/fix.sh | bash"
-  
-    curl https://raw.githubusercontent.com/zacpier/GnomeYosemiteIcons/master/download_from_github.sh | sh
 
+    sudo sh -c "curl https://raw.githubusercontent.com/Foggalong/hardcode-fixer/master/fix.sh | bash"
+
+    curl https://raw.githubusercontent.com/zacpier/GnomeYosemiteIcons/master/download_from_github.sh | sh
 
 
 [Hardcode Fixer](https://github.com/Foggalong/hardcode-fixer ""Hardcode-Fixer" by Foggalong") requires sudo in order to fix launcher entries that have hardcoded icons.  If you aren't comfortable with giving a random script sudo access, just run it without sudo.  It will still fix icons in the home folder.
@@ -28,9 +27,22 @@ Some programs aren't included in Hardcode Fixer.
  * Slingscold:
 
    Run in your favorite terminal: sudo gedit /usr/share/applications/slingscold.desktop
-   
+
    Replace "/usr/share/icons/slingscold.png" with "slingscold"
 
+Icon Config
+===============
+
+** NOTE: ** This is not anywhere near finished.  You can't use it currently.  Sorry :(
+
+You can configure the icon pack by typing into a terminal
+
+    ~/.icons/GnomeYosemiteIcons-master/config.sh
+
+You may be missing some required libraries in order to run this config tool.
+Just "sudo apt-get", "yum install", etc.. them.
+
+If that doesn't work, you'll have to google it.  I can't really help you with that, sorry.
 
 Credits
 =========
